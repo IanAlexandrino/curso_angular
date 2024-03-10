@@ -6,6 +6,11 @@ import { NewComponent } from './components/new-component/new-component.component
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NewComponent],
+  styles: [`
+    h1 {
+      color: red;
+    }
+  `],
   template: `
     <!-- <router-outlet><router-outlet /> -->
     <h1>Curso Angular</h1>
