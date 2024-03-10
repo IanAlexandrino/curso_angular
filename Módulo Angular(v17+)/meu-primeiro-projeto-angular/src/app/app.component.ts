@@ -14,8 +14,10 @@ import { NewComponent } from './components/new-component/new-component.component
   template: `
     <!-- <router-outlet><router-outlet /> -->
     <h1>Curso Angular</h1>
+    <div class = "theme-red">
     Antigo: <app-new-component></app-new-component>
     Novo: <app-new-component />
+    </div>
   `,
 })
 export class AppComponent {}
