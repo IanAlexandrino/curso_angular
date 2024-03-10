@@ -11,3 +11,5 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'meu-primeiro-projeto-angular';
 }
+
+//<router-outlet><router-outlet />
