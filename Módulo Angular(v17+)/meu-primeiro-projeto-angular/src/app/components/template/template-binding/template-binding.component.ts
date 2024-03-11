@@ -11,6 +11,8 @@ export class TemplateBindingComponent {
   public name = 'Ian Rodrigues';
   public age = 32;
   public condition = this.age > 1 ? "Teste" : "Teste 2"
+  public isDisable = false;
+  public srcValue = ''
 
   public sum (val1: number, val2: number){
     return val1 + val2;
