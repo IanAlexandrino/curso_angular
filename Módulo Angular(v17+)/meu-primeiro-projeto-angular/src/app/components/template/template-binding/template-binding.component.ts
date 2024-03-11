@@ -13,6 +13,7 @@ export class TemplateBindingComponent {
   public condition = this.age > 1 ? "Teste" : "Teste 2"
   public isDisable = false;
   public srcValue = ''
+  public isTextDecoration = this.age >= 32 ? 'underline' : 'none'
 
   public sum (val1: number, val2: number){
     return val1 + val2;
