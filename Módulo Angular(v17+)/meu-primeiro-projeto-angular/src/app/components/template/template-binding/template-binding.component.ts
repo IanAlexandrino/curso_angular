@@ -15,7 +15,22 @@ export class TemplateBindingComponent {
   public srcValue = ''
   public isTextDecoration = this.age >= 32 ? 'underline' : 'none'
 
-  public sum (val1: number, val2: number){
-    return val1 + val2;
+  public sum(){
+    return this.age++;
+  }
+
+  public sub(){
+    return this.age--;
+  }
+
+  public onKeyDown(event: Event) {
+    return console.log(event);
+  }
+
+  public onMouseMove(event: MouseEvent){
+    return console.log({
+      clientX: event.clientX,
+      clientY: event.clientY
+    });
   }
 }
